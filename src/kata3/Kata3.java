@@ -5,7 +5,7 @@ public class Kata3 {
 
     
     public static void main(String[] args) {
-        Histrogram histogram = new Histrogram();
+        Histrogram<String> histogram = new Histrogram();
         histogram.increment("ulpgc.es");
         histogram.increment("dis.ulpgc.es");
         histogram.increment("ulpgc.es");
