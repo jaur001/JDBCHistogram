@@ -1,10 +1,10 @@
-package kata3;
+package kata5;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class Histrogram<T> {
+public class Histogram<T> {
     private final Map<T,Integer> map = new HashMap<T,Integer>();
     public Integer get(T key){
         return map.get(key);

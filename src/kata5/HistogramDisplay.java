@@ -1,6 +1,5 @@
-package kata3;
+package kata5;
 
-import java.awt.Container;
 import java.awt.Dimension;
 import javax.swing.JPanel;
 import org.jfree.chart.ChartFactory;
@@ -13,10 +12,10 @@ import org.jfree.ui.ApplicationFrame;
 
 public class HistogramDisplay extends ApplicationFrame{
 
-private Histrogram histogram;
+private Histogram histogram;
     
-public HistogramDisplay(Histrogram histogram) {
-super("HISTOGRAMA");
+public HistogramDisplay(Histogram histogram) {
+super("Histograma");
 this.histogram = histogram;
 this.setContentPane(createPanel());
 this.pack();
